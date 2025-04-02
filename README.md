@@ -1,3 +1,5 @@
+Dataset Source : https://github.com/Chula-PIC-Lab/Chula-RBC-12-Dataset/tree/main/Dataset
+
 RBC Counting and Analysis
 
 This repository contains code for RBC Red Blood Cell counting and analysis using image processing techniques. The project aims to accurately count RBCs, including handling overlapping cells, using Python and OpenCV.
