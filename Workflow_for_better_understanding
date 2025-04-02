@@ -1,0 +1,27 @@
+START
+  │
+  ├──► Read Image (cv2.imread)
+  │
+  ├──► Resize Image (cv2.resize)
+  │
+  ├──► Compute and Apply RGB Normalization
+  │
+  ├──► Extract Green Channel
+  │
+  ├──► Apply CLAHE for Contrast Enhancement
+  │
+  ├──► Apply Otsu's Thresholding and Invert Image
+  │
+  ├──► Find Contours (cv2.findContours)
+  │
+  ├──► Identify Concave Points in Contours
+  │
+  ├──► Categorize RBCs:
+  │      ├── If No Concave Points → Single RBC
+  │      ├── If Multiple Concave Points → Overlapping RBCs
+  │
+  ├──► Compute Estimated RBC Count
+  │
+  ├──► Draw Results and Display Output
+  │
+  └──► END
